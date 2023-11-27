@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="food,ingredients,recipes">
+    <meta name="description" content="Free Website For Food and Cooking Recipes">
+    <link rel="icon" type="shortcut/x-icon" href="../Imgs/logo.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yummy</title>
+</head>
+
+<body>
+    <!-- <div class="LoadingPage bg-black position-absolute top-0 bottom-0 start-0 end-0">
+        <div class="sk-circle">
+            <div class="sk-circle1 sk-child"></div>
+            <div class="sk-circle2 sk-child"></div>
+            <div class="sk-circle3 sk-child"></div>
+            <div class="sk-circle4 sk-child"></div>
+            <div class="sk-circle5 sk-child"></div>
+            <div class="sk-circle6 sk-child"></div>
+            <div class="sk-circle7 sk-child"></div>
+            <div class="sk-circle8 sk-child"></div>
+            <div class="sk-circle9 sk-child"></div>
+            <div class="sk-circle10 sk-child"></div>
+            <div class="sk-circle11 sk-child"></div>
+            <div class="sk-circle12 sk-child"></div>
+        </div>
+    </div> -->
+    <aside class="SideNavBar position-fixed  d-flex ">
+        <div class="InnerNavBar p-3 d-flex flex-column justify-content-between">
+            <div class="NavBarLinks d-flex flex-column">
+                <a href="../Search/index.html">Search</a>
+                <a href="../Catg/index.html">Categories</a>
+                <a href="../Areas/index.html">Area</a>
+                <a href="../Ingridents/index.html">Ingredients</a>
+                <a href="../Contacts/index.html">Contact Us</a>
+            </div>
+            <div class="NavBarInfo text-white">
+                <div class="NavBarInfoIcons">
+                    <a href="#" class="fs-5 text-white"><i class="fa-brands fa-facebook p-1"></i></a>
+                    <a href="#" class="fs-5 text-white"><i class="fa-brands fa-twitter p-1"></i></a>
+                    <a href="#" class="fs-5 text-white"><i class="fa-solid fa-globe p-1"></i></a>
+                </div>
+                <div class="NavBarCopyRightsInfo">
+                    Copyright Â© 2019 All Rights <br> Reserved.
+                </div>
+            </div>
+        </div>
+        <div class="OuterNavBar d-flex flex-column justify-content-between align-items-center py-3 px-2">
+            <div class="NavBarLogo">
+                <a href="../index.html">
+                    <img src="../Imgs/logo.png" alt="Logo" class="img-fluid">
+                </a>
+            </div>
+            <div class="MainNavBarIcon fs-2">
+                <i class="fa-solid fa-bars" id="OpenMenu"></i>
+                <i class="fa-solid fa-x" id="CloseMenu"></i>
+            </div>
+            <div class="SeconderyNavBarIcon">
+                <a href="#" class="text-dark"><i class="fa-solid fa-globe d-block py-1"></i></a>
+                <a href="#" class="text-dark"></a><i class="fa-solid fa-share-nodes d-block py-1"></i></a>
+            </div>
+        </div>
+    </aside>
+    <section class="HomeMealShown p-3 container ms-auto text-white ">
+        <div class="container ms-auto ">
+            <div class="row g-3 ">
+                <div class="MealPic rounded-3 container col-md-4  py-2 col-sm-12">
+                    <img src="" alt="" id="MealPic" class="img-fluid rounded-3">
+                    <h2 class="fw-bold text-white py-2" id="MealName"></h2>
+                </div>
+                <div class="MealInfo col-md-7   col-sm-12">
+                    <div class="w-75 ms-auto">
+                        <h1 class="fw-bold pt-2">Instructions</h1>
+                        <p id="Instructions">?</p>
+                        <h2 class="fw-bold">Area: <span id="Area">?</span></h2>
+                        <h2 class="fw-bold">Category: <span id="Cat">?</span></h2>
+                        <p class="fw-bold fs-3">Recipes :</p>
+                        <div id="MeaContainer" class="">
+                            <span class="Ingridents bg-primary p-1 m-3 rounded-1">1 cup Lentils</span>
+                            <span class="Ingridents bg-primary p-1 m-1 rounded-1">1 cup Lentils</span>
+                            <span class="Ingridents bg-primary p-1 m-1 rounded-1">1 cup Lentils</span>
+                            <span class="Ingridents bg-primary p-1 m-1 rounded-1">1 cup Lentils</span>
+                            <span class="Ingridents bg-primary p-1 m-1 rounded-1">1 cup Lentils</span>
+                        </div>
+                        <p class="fs-2 m-1 fw-bold">Tags :
+                        <p id="Tag" class=""></p>
+                        </p>
+    
+                        <button type="button" class="btn btn-success"><a id="Source" target="_blank" href="#"
+                                class="text-white text-decoration-none">Source</a></button>
+                        <button type="button" class="btn btn-danger" ><a target="_blank" href="#" id="Video"
+                                class="text-white text-decoration-none">YouTube</a></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/ShownMeal.js" type="module"></script>
+</body>
+
+</html>

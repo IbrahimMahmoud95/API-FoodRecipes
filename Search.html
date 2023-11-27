@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="food,ingredients,recipes">
+    <meta name="description" content="Free Website For Food and Cooking Recipes">
+    <link rel="icon" type="shortcut/x-icon" href="Imgs/logo.png">
+    <link rel="stylesheet" href="Search/css/all.min.css">
+    <link rel="stylesheet" href="Search/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Search/css/search.css">
+    <title>Yummy</title>
+</head>
+
+<body>
+    <div class="LoadingPage bg-black position-absolute top-0 bottom-0 start-0 end-0">
+        <div class="sk-circle">
+            <div class="sk-circle1 sk-child"></div>
+            <div class="sk-circle2 sk-child"></div>
+            <div class="sk-circle3 sk-child"></div>
+            <div class="sk-circle4 sk-child"></div>
+            <div class="sk-circle5 sk-child"></div>
+            <div class="sk-circle6 sk-child"></div>
+            <div class="sk-circle7 sk-child"></div>
+            <div class="sk-circle8 sk-child"></div>
+            <div class="sk-circle9 sk-child"></div>
+            <div class="sk-circle10 sk-child"></div>
+            <div class="sk-circle11 sk-child"></div>
+            <div class="sk-circle12 sk-child"></div>
+        </div>
+    </div>
+    <aside class="SideNavBar position-fixed  d-flex ">
+        <div class="InnerNavBar p-3 d-flex flex-column justify-content-between">
+            <div class="NavBarLinks d-flex flex-column">
+                <a href="#">Search</a>
+                <a href="Cat.html">Categories</a>
+                <a href="Area.html">Area</a>
+                <a href="Ing.html">Ingredients</a>
+                <a href="Contacts.html">Contact Us</a>
+            </div>
+            <div class="NavBarInfo text-white">
+                <div class="NavBarInfoIcons">
+                    <a href="#" class="fs-5 text-white"><i class="fa-brands fa-facebook p-1"></i></a>
+                    <a href="#" class="fs-5 text-white"><i class="fa-brands fa-twitter p-1"></i></a>
+                    <a href="#" class="fs-5 text-white"><i class="fa-solid fa-globe p-1"></i></a>
+                </div>
+                <div class="NavBarCopyRightsInfo">
+                    Copyright Â© 2019 All Rights <br> Reserved.
+                </div>
+            </div>
+        </div>
+        <div class="OuterNavBar d-flex flex-column justify-content-between align-items-center py-3 px-2">
+            <div class="NavBarLogo">
+                <a href="index.html">
+                    <img src="Imgs/logo.png" alt="Logo" class="img-fluid">
+                </a>
+            </div>
+            <div class="MainNavBarIcon fs-2">
+                <i class="fa-solid fa-bars" id="OpenMenu"></i>
+                <i class="fa-solid fa-x" id="CloseMenu"></i>
+            </div>
+            <div class="SeconderyNavBarIcon">
+                <a href="#" class="text-dark"><i class="fa-solid fa-globe d-block py-1"></i></a>
+                <a href="#" class="text-dark"></a><i class="fa-solid fa-share-nodes d-block py-1"></i></a>
+            </div>
+        </div>
+    </aside>
+    <section class="SearchBars container mt-5 d-flex justify-content-between">
+        <div class="W-45">
+            <input id="ByName" class="form-control p-2 bg-transparent" type="text" placeholder="Search By Name">
+        </div>
+        <div class="W-45">
+            <input id="ByFirstLetter" class="form-control p-2 bg-transparent" type="text"
+                placeholder="Search By First Letter">
+        </div>
+    </section>
+    <section class="Home p-3">
+        <div class="container mx-auto row g-4" id="CardContainer">
+        </div>
+    </section>
+    <script src="Search/js/all.min.js"></script>
+    <script src="Search/js/bootstrap.bundle.min.js"></script>
+    <script src="Search/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="Search/js/search.js"></script>
+</body>
+
+</html>
